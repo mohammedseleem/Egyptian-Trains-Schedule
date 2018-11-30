@@ -1,0 +1,241 @@
+body
+{
+  margin:0;
+  padding:0;
+  font-family: "Tahoma";
+}
+.header
+{
+  background-color:#D8443C;
+  color:#FFF;
+  position:  relative;
+  height: 80px;
+}
+.header h1
+{
+  display:inline-block;
+  position:  absolute;
+  left: 5%;
+}
+.content
+{
+  padding:110.5px 0;
+  direction: rtl;
+
+
+}
+.content form
+{
+  width:300px;
+  margin:50px auto;
+
+}
+.content .form-data
+{
+  position:relative;
+
+}
+.content .form-data form .src-stations,
+.content .form-data form .dest-stations
+{
+  border-radius:5px;
+  z-index: 9999;
+  border:1px solid #CCC;
+  overflow-y: scroll;
+  height: 300px;
+  background-color: #FFF;
+  display: none;
+
+
+}
+.content .form-data form .src-stations
+{
+  position:absolute;
+  top:46px;
+  width:250px;
+}
+.content .form-data form .dest-stations
+{
+  position:absolute;
+  top:110px;
+  width:250px;
+}
+.content .form-data form .src-stations ul,.content .form-data form .dest-stations ul
+{
+  list-style:none;
+  padding: 0 0;
+  margin:0;
+}
+.content .form-data form .src-stations ul li,.content .form-data form .dest-stations ul li
+{
+  padding:10px 0;
+  background-color:#FFF;
+  color:#000;
+  cursor: pointer;
+  display: none;
+  text-align: center;
+}
+.content .form-data form .src-stations ul li:hover,
+.content .form-data form .dest-stations ul li:hover
+{
+  background-color:#D8443C;
+  cursor:pointer;
+   color:#FFF;
+}
+.content form input[type='text']
+{
+  display:block;
+  margin-bottom:20px;
+  width:100%;
+  padding:10px 10px 10px 0;
+  outline:none;
+  border:1px solid #EEE;
+  font-size:17px;
+}
+
+.content form input[type='text']:focus
+{
+  border:1px solid #D8443D;
+  box-shadow: inset 0 1px 1px #D8443D, 0 0 8px #D8443D;
+}
+.content form input[type='submit']
+{
+  padding:10px 0;
+  width:312px;
+  display:block;
+  background-color:#D8443C;
+  border:none;
+  color:#FFF;
+  font-size:17px;
+  border-radius:5px;
+  cursor:pointer;
+}
+.degrees
+{
+  background-color:#424242;
+  color:#FFF;
+  width:400px;
+  z-index: 9999;
+  position:absolute;
+  top:-40px;
+  left:470px;
+  display: none;
+}
+.degrees ul
+{
+  list-style:none;
+  padding: 0;
+  margin:0;
+}
+.degrees ul li
+{
+  padding:30px 30px;
+  border-bottom:1px solid #EEE;
+  margin-right:0;
+  background-color:#424242;
+  color:#FFF;
+  cursor: pointer;
+
+}
+
+.degrees ul li:hover
+{
+  color: #D8443C;
+}
+.degrees ul li:last-child
+{
+  border:none;
+}
+.degrees ul .close
+{
+  width: 2px;
+  padding:0 10px 0 15px;
+  border: none;
+  margin-right:0;
+  background-color:#424242;
+  color:#FFF;
+  cursor: pointer;
+}
+.degrees ul .close:hover
+{
+  background-color:#D8443C;
+  color: #FFF;
+}
+.trains
+{
+   direction: rtl;
+}
+
+.trains .head
+{
+ margin:50px auto;
+ width:500px;
+ padding:1px 40px;
+ background-color:#D8443C;
+ color:#FFF;
+ text-align: center;
+}
+.trains table
+{
+ margin:10px auto;
+
+
+}
+.trains table  thead
+{
+  background-color: #D8443C;
+
+}
+.trains table  thead  th
+{
+  color:#FFF;
+  text-align: center;
+  padding:10px 30px;
+}
+.trains table  tbody
+{
+  background-color: #EEE;
+}
+.trains table  tbody  td
+{
+  padding:10px 30px;
+  text-align: center;
+  font-weight: bold;
+  color:#555;
+}
+.logo
+{
+  position: relative
+}
+.logo .logo-items
+{
+  position: absolute;
+  top:12%;
+  left: -1%;
+  cursor: pointer;
+}
+.logo-bars
+{
+  position: absolute;
+  top: 36%;
+  left: 2%;
+  cursor: pointer;
+}
+.logo-bars span
+{
+  display: block;
+  background-color: #FFF;
+  height: 6px;
+  width: 36px;
+  margin-bottom: 5px;
+  border-radius: 1px;
+}
+.logo .logo-items span
+{
+  display: block;
+  background-color: #D8443C;
+  height: 6px;
+  width: 45px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+}
